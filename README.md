@@ -4,7 +4,11 @@ The code repository for my bachelor thesis project: The Importance of Original T
 In order to run the code the Twitter API keys have to be put into the config.py file
 
 Use the following command to install all the required dependencies:
-``` pip install -r requirements.txt ```
+``` $pip install -r requirements.txt ```
+
+And run this command to create needed folders:
+
+```$mkdir data models results user_lists usercsvs ```
 
 The pipeline codes can be used independently but the whole pipeline looks like this:
 
