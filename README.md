@@ -12,7 +12,7 @@ $brew install coreutils #this installs gsplit which is needed later
 
 And run this command to create needed folders:
 
-```$mkdir data models results user_lists usercsvs ```
+```$mkdir data models results user_lists usercsvs logfiles ```
 
 The pipeline codes can be used independently but the whole pipeline looks like this:
 
