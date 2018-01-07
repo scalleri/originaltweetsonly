@@ -43,5 +43,9 @@ Extracts the user timezones and maps them to a list of countries. Creates a JSON
 
 ```$python3 create_database.py usercsvs/ [user:tweets.json] -countries ["countries like: 'US,GB,IN'] [country:user_names.json] -eng [True/False] ```
 
+Creates a database for the specified countries with the user and their tweets.
 
+```$python3 classify.py [user:tweets.json] --users 500 [result file]```
+
+Creates a multinomial sklearn model, stored under models of the n amount of users (here 500). 
 
