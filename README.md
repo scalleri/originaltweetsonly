@@ -4,7 +4,11 @@ The code repository for my bachelor thesis project: The Importance of Original T
 In order to run the code the Twitter API keys have to be put into the config.py file
 
 Use the following command to install all the required dependencies:
-``` $pip install -r requirements.txt ```
+``` 
+$pip install -r requirements.txt 
+$brew install coreutils #this installs gsplit which is needed later 
+```
+
 
 And run this command to create needed folders:
 
@@ -22,7 +26,7 @@ Parses the JSON file of the tweets to extract users with specified metadata (her
 
 ``` 
 $cd user_lists
-$gsplit -additional-suffix .txt -d -l 40 user_list[id].txt
+$gsplit --additional-suffix .txt -d -l 40 user_list[id].txt
 $rm user_list[id].txt
 $cd .. 
 ``` 
