@@ -1,7 +1,13 @@
 # originaltweetsonly
 The code repository for my bachelor thesis project: The Importance of Original Tweets: Content-Based Prediction of Twitter User Location
 
-In order to run the code the Twitter API keys have to be put into the config.py file
+In order to run the code the Twitter API keys have to be put into a config.py file like so:
+```
+consumer_key = ''
+consumer_secret = ''
+access_key = ''
+access_secret = ''
+
 
 Use the following command to install all the required dependencies:
 ``` 
