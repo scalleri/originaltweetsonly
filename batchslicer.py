@@ -17,7 +17,7 @@ logfile = codecs.open('logfiles/logfile'+currentdate+'.txt','w','utf-8')
 for user_names_filename in directory:
 	logfile.write(user_names_filename)
 	logfile.write('\n')
-	print '================ NEW FILE' + user_names_filename + "============="
+	print('================ NEW FILE' + user_names_filename + "=============")
 	tweet_dumper.main(user_names_directory+user_names_filename)
 
 
