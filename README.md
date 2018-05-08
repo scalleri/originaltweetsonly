@@ -10,7 +10,7 @@ access_secret = ''
 ``` 
 
 Use the following command to install all the required dependencies:
-
+```
 $pip install -r requirements.txt 
 $brew install coreutils #this installs gsplit which is needed later 
 ```
